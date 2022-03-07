@@ -1,1 +1,1 @@
-# Numeric-Analytics---Assignment-1
+# Numeric-Analytics Assignment-1
