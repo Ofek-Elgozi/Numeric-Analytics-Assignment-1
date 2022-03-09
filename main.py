@@ -11,12 +11,12 @@ while eps + 1 > 1:
     eps /= 2
 eps *= 2
 print("The machine epsilon is:", eps)
-
-#Q3 + Q4
+#
+# #Q3 + Q4
 ans = abs(3.0*(4.0/3.0-1)-1)
 print("Answer is:", ans)
 
-fixed = abs(round(3.0*(4.0/3.0-1)-1))
+fixed = abs((3.0*(4.0/3.0-1)-1)+eps)
 print("Fixed Answer is:", fixed)
 
 
